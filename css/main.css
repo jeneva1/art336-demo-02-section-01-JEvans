@@ -126,7 +126,7 @@ dfn {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0 0;
 }
 
 /**
@@ -442,6 +442,7 @@ html {
 body {
   background-color: #fff;
   font-family: 'Lato', georgia, serif;
+  color: #666666;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -494,7 +495,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 0 6px 0 0;
+  margin: 0 5px 0 0;
   padding: 0;
 }
 
@@ -503,7 +504,7 @@ nav ul li:last-of-type {
 }
 
 a {
-  color: #333333;
+  color: #666666;
   font-family: 'Lato', georgia, serif;
   font-style: normal;
   font-weight: 700;
@@ -511,7 +512,7 @@ a {
 }
 
 a:hover {
-  color: #999999;
+  color: #cccccc;
   font-family: 'Lato', georgia, serif;
   font-style: normal;
   font-weight: 700;
@@ -524,7 +525,7 @@ header h1 {
   font-family: 'Oswald', helvetica, verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #333333;
+  color: #666666;
   line-height: 1;
 }
 
@@ -538,7 +539,7 @@ header h2 {
   line-height: 1.25;
 }
 
-header h3, h4, h5, h6 {
+header h3, h4, h5, h6, h7, h8 {
   font-size: 30px;
   font-size: 1.875rem;
   font-family: 'Oswald', helvetica, verdana, sans-serif;
