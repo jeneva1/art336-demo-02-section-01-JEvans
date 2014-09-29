@@ -503,7 +503,7 @@ nav ul li:last-of-type {
 }
 
 a {
-  color: #666666;
+  color: #333333;
   font-family: 'Lato', georgia, serif;
   font-style: normal;
   font-weight: 700;
@@ -511,37 +511,43 @@ a {
 }
 
 a:hover {
-  color: #cccccc;
+  color: #999999;
   font-family: 'Lato', georgia, serif;
   font-style: normal;
   font-weight: 700;
   transition: color 350ms linear;
 }
 
-h1, h3, h4, h5, h6 {
-  font-family: 'Oswald', helvetica, verdana, sans-serif;
-  color: #ff9966;
- font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0;
- 
-}
-    
-    h2 {
-  font-family: 'Pacifico', helvetica, verdana, sans-serif;
-  color: #ff9966;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0;
-}
-
 header h1 {
-  color: #333333;
   font-size: 175px;
   font-size: 10.9375rem;
+  font-family: 'Oswald', helvetica, verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
   line-height: 1;
+}
+
+header h2 {
+  font-size: 60px;
+  font-size: 3.75rem;
+  font-family: 'Pacifico', helvetica, verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ff9966;
+  line-height: 1.25;
+}
+
+header h3, h4, h5, h6 {
+  font-size: 30px;
+  font-size: 1.875rem;
+  font-family: 'Oswald', helvetica, verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ff9966;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
 }
 
 article h1 {

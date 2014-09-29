@@ -84,15 +84,31 @@ a:hover {
     }
 // End nav styling
 
-h1, h1, h3 {
-    @include headline-font;
-   margin: 0;
-}
 
 header h1 {
     @include fontSize(175px);
+    @include headline-font;
+    color: $color;
     line-height: 1;
 }
+
+header h2 {
+    @include fontSize(60px);
+    @include header-font;
+    color: $color-title;
+    line-height: 1.25;
+}
+
+header h3, h4, h5, h6 {
+    @include fontSize(30px);
+    @include headline-font;
+    color: $color-title;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 article h1 {
     color: $color-title;

@@ -61,7 +61,13 @@ Globals
     font-weight: 400;
 }
 
+@mixin header-font {
+    font-family: 'Pacifico', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
 // Site Variables
 $background-color: #e6e3e3;
-$color: #666666;
+$color: #333333;
 $color-title: #ff9966;
